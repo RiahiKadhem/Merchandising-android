@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type promotion"
+        android:textSize="18dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/type_promo">
+
+        <RadioButton
+            android:text="1+1 gratuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gratuit1"/>
+        <RadioButton
+            android:text="2+1 gratuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gratuit2"/>
+        <RadioButton
+            android:text="3+1 gratuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gratuit3"/>
+        <RadioButton
+            android:text="4+1 gratuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gratuit4"/>
+        <RadioButton
+            android:text="remise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/remise"/>
+        <RadioButton
+            android:text="50% sur le deuxieme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deuxieme_50"/>
+
+    </RadioGroup>
+
+</LinearLayout>

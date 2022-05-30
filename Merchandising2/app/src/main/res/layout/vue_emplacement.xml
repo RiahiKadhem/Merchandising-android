@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emplacement"
+        android:textSize="18dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/emplacement">
+
+        <RadioButton
+            android:text="Allee centrale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/alle_centrale"/>
+        <RadioButton
+            android:text="tete de gondole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tete_de_gondole"/>
+        <RadioButton
+            android:text="ilots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ilots"/>
+        <RadioButton
+            android:text="stop rayon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stop_rayon"/>
+        <RadioButton
+            android:text="demi allee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/demi_allee"/>
+        <RadioButton
+            android:text="stand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stand"/>
+    </RadioGroup>
+
+</LinearLayout>
